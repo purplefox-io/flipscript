@@ -1,0 +1,17 @@
+App(
+    appid="app_example",
+    name="FlipScript made app",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="app_main",
+    stack_size=2 * 1024,
+    fap_category="Tools",
+    fap_icon="",
+    fap_description="App made with Python-like scripting language for Flipper Zero",
+    fap_author="You",
+    fap_weburl="https://github.com/yourusername/flipscript",
+    fap_version=(0, 1),
+    sources=[
+        "output.c"
+    ],
+    requires=["gui", "dialogs", "assets", "storage", "notification"],
+)

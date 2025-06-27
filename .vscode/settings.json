@@ -1,0 +1,6 @@
+{
+    "makefile.configureOnOpen": false,
+    "files.associations": {
+        "ios": "c"
+    }
+}
